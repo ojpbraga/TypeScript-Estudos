@@ -34,13 +34,14 @@ function UnionTypes() {
 
     function toNumber(value: number | string) {
         if (typeof value === "number" || typeof value === "string") {
-            return value;
+            return typeof value === "number" ? value : +value;
         } else {
             throw("Value deve ser um número ou uma string")
         }
 
     }
     console.log(toNumber(3));
+    console.log(toNumber("3"));
     // console.log(toNumber(true));
 
   return (
