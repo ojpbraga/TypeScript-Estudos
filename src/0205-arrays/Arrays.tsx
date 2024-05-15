@@ -51,22 +51,23 @@ function Arrays() {
         gratuito: boolean;
         tags: string[];
         idAula: number[];
-        nivel: string;
+        nivel: "iniciante" | "avancado";
       }
       
       function mostrarCursos(cursos: InterfaceCouses[]) {
         return cursos.map(curso => {
-            return ( document.body.innerHTML +=
-                `<div>
-                    <h1 style="background: ${curso.nivel === "iniciante" ? "blue" : "red"}">Nome: ${curso.nome}</h1>
-                    <p>Horas: ${curso.horas}</p>
-                    <h3>Gratuito: ${true ? "Sim" : "Não"}</h3>
-                    <ul>
-                        ${curso.tags.map(tag => `<li>${tag}</li>`)}
-                    </ul>
-                    <h3>Nível: ${curso.nivel}</h3>
-                </div>`
-            )
+            // return ( 
+            //     document.body.innerHTML +=
+            //     `<div>
+            //         <h1 style="background: ${curso.nivel === "iniciante" ? "blue" : "red"}">Nome: ${curso.nome}</h1>
+            //         <p>Horas: ${curso.horas}</p>
+            //         <h3>Gratuito: ${true ? "Sim" : "Não"}</h3>
+            //         <ul>
+            //             ${curso.tags.map(tag => `<li>${tag}</li>`)}
+            //         </ul>
+            //         <h3>Nível: ${curso.nivel}</h3>
+            //     </div>`
+            // )
         });
       }
       
