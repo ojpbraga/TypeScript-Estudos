@@ -35,12 +35,12 @@ function Any() {
     }
 
     function mostrarCursos(cursos: Curso[]) {
-        cursos.forEach((curso) => {
-            document.body.innerHTML += `
-                <h2>${curso.nome}</h2>
-                <h2>${curso.horas}</h2>
-            `;
-        })
+        // cursos.forEach((curso) => {
+        //     document.body.innerHTML += `
+        //         <h2>${curso.nome}</h2>
+        //         <h2>${curso.horas}</h2>
+        //     `;
+        // })
     }
     mostrarCursos([{nome: "JS", horas: 37}]);
 
