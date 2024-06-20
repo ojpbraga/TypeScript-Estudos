@@ -103,6 +103,20 @@ function InstanceofClass() {
     }
     console.log(link);
     
+    // Exercise 2
+    // const links = document.querySelectorAll('.link');
+    // const arrayLinks: HTMLAnchorElement[] = Array.from(links);
+    // arrayLinks.forEach(link => {
+    //     link.addEventListener("click", () => {
+    //         handleClick(link);
+    //     })
+    // })
+
+    // function handleClick(element: HTMLAnchorElement) {
+    //     event?.preventDefault();
+    //     element.style.color = "red";
+    //     element.style.border = "2px solid red";
+    // }
 
   return (
     <div>instanceof</div>

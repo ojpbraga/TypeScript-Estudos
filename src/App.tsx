@@ -5,6 +5,7 @@ import Arrays from './0205-arrays/Arrays';
 import Any from './0206-any/Any';
 import NullUndefined from './0207-null-undefined/NullUndefined';
 import InstanceofClass from './0301-instanceof/Instanceof';
+import Interfaces from './0302-interfaces/Interfaces';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <Any/>
       <NullUndefined/>
       <InstanceofClass/>
+      <Interfaces/>
     </>
   )
 }
