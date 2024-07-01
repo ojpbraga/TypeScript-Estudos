@@ -6,6 +6,8 @@ import Any from './0206-any/Any';
 import NullUndefined from './0207-null-undefined/NullUndefined';
 import InstanceofClass from './0301-instanceof/Instanceof';
 import Interfaces from './0302-interfaces/Interfaces';
+import EventsCallback from './0303-eventsCallback/EventsCallback';
+import Generic from './0304-generic/Generic';
 
 function App() {
 
@@ -18,6 +20,8 @@ function App() {
       <NullUndefined/>
       <InstanceofClass/>
       <Interfaces/>
+      <EventsCallback/>
+      <Generic/>
     </>
   )
 }
